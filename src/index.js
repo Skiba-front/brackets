@@ -39,7 +39,7 @@ module.exports = function check(str, bracketsConfig) {
     }
   }
 
-  if (stack.length !== 0) {
+  if (res.length !== 0) {
     return false;
   } else {
     return true;
